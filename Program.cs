@@ -3,8 +3,8 @@
 // из строк, длина которых меньше либо равна 3
 //------------------------------------------------------------------------
 
-// Метод fillArray, который заполняет одномерный массив строк
-string[] fillArray(int m)
+// Метод FillArray, который заполняет одномерный массив строк
+string[] FillArray(int m)
 {
     string[] outputArray = new string[m];
     
@@ -55,7 +55,7 @@ try
     GetConsoleData(out m);
 
     // Заполняем массив
-    string[] filledArray = fillArray(m);
+    string[] filledArray = FillArray(m);
 
     // Изменяем массив согласно условиям задачи
     string[] changedArray = ChangeArray(filledArray);
