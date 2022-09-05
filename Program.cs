@@ -26,7 +26,7 @@ string[] ChangeArray(string[] inputArray)
     
     for (int i = 0; i < arrayLenght; i++)
     {
-        if (inputArray[i].Length >= 3)
+        if (inputArray[i].Length <= 3)
         {
             Array.Resize(ref outputArray, outputArray.Length+1);
             outputArray[outputArray.Length-1] = inputArray[i];
